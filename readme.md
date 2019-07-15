@@ -15,4 +15,12 @@ The purpose of this component is to serve our data using express via two differe
 The first route `/api/people/history` is responsible for displaying the current cache of up to 20 different recently accessed people from the data base. 
 The second route `/api/people/:id` is responsible for getting the person with ID from the cache, if they are cached. Otherwise we fetch the person from the data base and then add them to the cache. 
 
-All the caching will be done using Redis, and all routing using Express. 
+All the caching is done using Redis, and all routing using Express. 
+
+## Run
+
+To use the program make sure you are in the root project directory. 
+
+Using Node.js run `npm install` to install all of the dependencies. 
+
+Then run `npm start` which will begin running the server to demonstrate the program. 
