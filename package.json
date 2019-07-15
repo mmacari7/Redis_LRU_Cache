@@ -1,0 +1,17 @@
+{
+  "name": "redis-data-testing",
+  "version": "1.0.0",
+  "description": "Simple usage and operations with Redis for web development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Macari 10432224",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}
